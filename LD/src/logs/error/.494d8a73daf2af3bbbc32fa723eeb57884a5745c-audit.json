@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\Intelory\\Desktop\\project\\LD\\src\\logs\\error\\.494d8a73daf2af3bbbc32fa723eeb57884a5745c-audit.json",
+    "files": [
+        {
+            "date": 1696766007830,
+            "name": "C:\\Users\\Intelory\\Desktop\\project\\LD\\src\\logs\\error\\2023-10-08.error.log",
+            "hash": "8b51bc0bdf875a310568b62ecc9cdd1105d4b193e63298c26b5104df8e8a4035"
+        },
+        {
+            "date": 1697103309765,
+            "name": "C:\\Users\\Intelory\\Desktop\\project\\LD\\src\\logs\\error\\2023-10-12.error.log",
+            "hash": "2d07fb5dedf2e3e4497db8260be418d4b71cd8bf1284978811ee84fb85671ec2"
+        },
+        {
+            "date": 1697202008604,
+            "name": "C:\\Users\\Intelory\\Desktop\\project\\LD\\src\\logs\\error\\2023-10-13.error.log",
+            "hash": "83c681f67fd9cfbfa2e03de9c85fb068f1215f36a358c653f0b9266a3668154d"
+        }
+    ],
+    "hashType": "sha256"
+}

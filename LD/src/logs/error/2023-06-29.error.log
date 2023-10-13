@@ -1,0 +1,1055 @@
+[2023-06-29 10:09:44] ERROR: Cannot read properties of undefined (reading 'originalname')
+[2023-06-29 10:11:42] ERROR: Wrong authentication token
+[2023-06-29 13:36:34] ERROR: Unexpected token } in JSON at position 688
+[2023-06-29 14:25:28] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/uploadAndSaveInboundShipmentDocument.service.ts[0m:[93m21[0m:[93m82[0m - [91merror[0m[90m TS2304: [0mCannot find name 'id'.
+
+[7m21[0m       const objectKey = this.generateClientInboundShipmentDocumentName(clientId, id, fileName);
+[7m  [0m [91m                                                                                 ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/uploadAndSaveInboundShipmentDocument.service.ts[0m:[93m21[0m:[93m82[0m - [91merror[0m[90m TS2304: [0mCannot find name 'id'.
+
+[7m21[0m       const objectKey = this.generateClientInboundShipmentDocumentName(clientId, id, fileName);
+[7m  [0m [91m                                                                                 ~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 14:26:08] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m110[0m:[93m13[0m - [91merror[0m[90m TS2367: [0mThis comparison appears to be unintentional because the types 'number' and 'string' have no overlap.
+
+[7m110[0m         if (inboundShipment.status === 'CLOSED') throw new HttpError({ message: 'Inbound shipment is already closed!', errors: {} });
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m111[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'string' is not assignable to type 'number'.
+
+[7m111[0m         inboundShipment.status = 'CLOSED';
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m114[0m:[93m41[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.
+  Type 'UploadAndSaveInboundShipmentDocument' has no call signatures.
+
+[7m114[0m         const key = await this.services.uploadAndSaveInboundShipmentDocument(clientId, inboundShipment.id, inboundShipment);
+[7m   [0m [91m                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m110[0m:[93m13[0m - [91merror[0m[90m TS2367: [0mThis comparison appears to be unintentional because the types 'number' and 'string' have no overlap.
+
+[7m110[0m         if (inboundShipment.status === 'CLOSED') throw new HttpError({ message: 'Inbound shipment is already closed!', errors: {} });
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m111[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType 'string' is not assignable to type 'number'.
+
+[7m111[0m         inboundShipment.status = 'CLOSED';
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m114[0m:[93m41[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.
+  Type 'UploadAndSaveInboundShipmentDocument' has no call signatures.
+
+[7m114[0m         const key = await this.services.uploadAndSaveInboundShipmentDocument(clientId, inboundShipment.id, inboundShipment);
+[7m   [0m [91m                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 14:27:33] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m114[0m:[93m41[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.
+  Type 'UploadAndSaveInboundShipmentDocument' has no call signatures.
+
+[7m114[0m         const key = await this.services.uploadAndSaveInboundShipmentDocument(clientId, inboundShipment.id, inboundShipment);
+[7m   [0m [91m                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m114[0m:[93m41[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.
+  Type 'UploadAndSaveInboundShipmentDocument' has no call signatures.
+
+[7m114[0m         const key = await this.services.uploadAndSaveInboundShipmentDocument(clientId, inboundShipment.id, inboundShipment);
+[7m   [0m [91m                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 14:27:49] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m114[0m:[93m41[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.
+  Type 'UploadAndSaveInboundShipmentDocument' has no call signatures.
+
+[7m114[0m         const key = await this.services.uploadAndSaveInboundShipmentDocument(clientId, inboundShipment.id, inboundShipment.toJSON());
+[7m   [0m [91m                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m114[0m:[93m41[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.
+  Type 'UploadAndSaveInboundShipmentDocument' has no call signatures.
+
+[7m114[0m         const key = await this.services.uploadAndSaveInboundShipmentDocument(clientId, inboundShipment.id, inboundShipment.toJSON());
+[7m   [0m [91m                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 14:28:39] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m114[0m:[93m41[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.
+  Type 'UploadAndSaveInboundShipmentDocument' has no call signatures.
+
+[7m114[0m         const key = await this.services.uploadAndSaveInboundShipmentDocument(clientId, inboundShipment.id, inboundShipment.toJSON());
+[7m   [0m [91m                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m114[0m:[93m41[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.
+  Type 'UploadAndSaveInboundShipmentDocument' has no call signatures.
+
+[7m114[0m         const key = await this.services.uploadAndSaveInboundShipmentDocument(clientId, inboundShipment.id, inboundShipment.toJSON());
+[7m   [0m [91m                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 14:29:07] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m114[0m:[93m41[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.
+  Type 'UploadAndSaveInboundShipmentDocument' has no call signatures.
+
+[7m114[0m         const key = await this.services.uploadAndSaveInboundShipmentDocument(clientId, inboundShipment.id, inboundShipment.toJSON());
+[7m   [0m [91m                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m114[0m:[93m41[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.
+  Type 'UploadAndSaveInboundShipmentDocument' has no call signatures.
+
+[7m114[0m         const key = await this.services.uploadAndSaveInboundShipmentDocument(clientId, inboundShipment.id, inboundShipment.toJSON());
+[7m   [0m [91m                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 16:36:35] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m106[0m:[93m26[0m - [91merror[0m[90m TS2632: [0mCannot assign to 'InboundShipment' because it is an import.
+
+[7m106[0m         inboundShipment: InboundShipment = await this.services.clientInboundShipmentService.getClientInboundShipment(clientId, inboundShipmentId);
+[7m   [0m [91m                         ~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m106[0m:[93m26[0m - [91merror[0m[90m TS2632: [0mCannot assign to 'InboundShipment' because it is an import.
+
+[7m106[0m         inboundShipment: InboundShipment = await this.services.clientInboundShipmentService.getClientInboundShipment(clientId, inboundShipmentId);
+[7m   [0m [91m                         ~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 16:37:37] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m106[0m:[93m26[0m - [91merror[0m[90m TS2632: [0mCannot assign to 'InboundShipment' because it is an import.
+
+[7m106[0m         inboundShipment: InboundShipment = await this.services.clientInboundShipmentService.getClientInboundShipment(clientId, inboundShipmentId);
+[7m   [0m [91m                         ~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m106[0m:[93m26[0m - [91merror[0m[90m TS2632: [0mCannot assign to 'InboundShipment' because it is an import.
+
+[7m106[0m         inboundShipment: InboundShipment = await this.services.clientInboundShipmentService.getClientInboundShipment(clientId, inboundShipmentId);
+[7m   [0m [91m                         ~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 16:41:05] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m134[0m:[93m9[0m - [91merror[0m[90m TS2552: [0mCannot find name 'outboundShipmentId'. Did you mean 'inboundShipmentId'?
+
+[7m134[0m         outboundShipmentId,
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m131[0m:[93m25[0m
+    [7m131[0m       const { clientId, inboundShipmentId, documentName, documentType } = req.params;
+    [7m   [0m [96m                        ~~~~~~~~~~~~~~~~~[0m
+    'inboundShipmentId' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m134[0m:[93m9[0m - [91merror[0m[90m TS2552: [0mCannot find name 'outboundShipmentId'. Did you mean 'inboundShipmentId'?
+
+[7m134[0m         outboundShipmentId,
+[7m   [0m [91m        ~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/controllers/client/inboundShipment.controller.ts[0m:[93m131[0m:[93m25[0m
+    [7m131[0m       const { clientId, inboundShipmentId, documentName, documentType } = req.params;
+    [7m   [0m [96m                        ~~~~~~~~~~~~~~~~~[0m
+    'inboundShipmentId' is declared here.
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 16:41:29] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/client/inboundShipment.route.ts[0m:[93m63[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'OutboundShipmentGenerateDocParamsDTO'.
+
+[7m63[0m       validationMiddleware(OutboundShipmentGenerateDocParamsDTO, 'params'),
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/routes/client/inboundShipment.route.ts[0m:[93m64[0m:[93m12[0m - [91merror[0m[90m TS2551: [0mProperty 'clientOutboundShipmentController' does not exist on type 'ClientInboundShipmentRoute'. Did you mean 'clientInboundShipmentController'?
+
+[7m64[0m       this.clientOutboundShipmentController.getClientOutboundShipmentDocument,
+[7m  [0m [91m           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/routes/client/inboundShipment.route.ts[0m:[93m13[0m:[93m10[0m
+    [7m13[0m   public clientInboundShipmentController = new ClientInboundShipmentController();
+    [7m  [0m [96m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'clientInboundShipmentController' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/client/inboundShipment.route.ts[0m:[93m63[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'OutboundShipmentGenerateDocParamsDTO'.
+
+[7m63[0m       validationMiddleware(OutboundShipmentGenerateDocParamsDTO, 'params'),
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/routes/client/inboundShipment.route.ts[0m:[93m64[0m:[93m12[0m - [91merror[0m[90m TS2551: [0mProperty 'clientOutboundShipmentController' does not exist on type 'ClientInboundShipmentRoute'. Did you mean 'clientInboundShipmentController'?
+
+[7m64[0m       this.clientOutboundShipmentController.getClientOutboundShipmentDocument,
+[7m  [0m [91m           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/routes/client/inboundShipment.route.ts[0m:[93m13[0m:[93m10[0m
+    [7m13[0m   public clientInboundShipmentController = new ClientInboundShipmentController();
+    [7m  [0m [96m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'clientInboundShipmentController' is declared here.
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 16:44:53] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/client/inboundShipment.route.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS2724: [0m'"@dtos/inboundShipment.dto"' has no exported member named 'InboundShipmentGetDocumentParamsDTO'. Did you mean 'InboundShipmentParamsDTO'?
+
+[7m12[0m   InboundShipmentGetDocumentParamsDTO,
+[7m  [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/dtos/inboundShipment.dto.ts[0m:[93m35[0m:[93m14[0m
+    [7m35[0m export class InboundShipmentParamsDTO {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'InboundShipmentParamsDTO' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/client/inboundShipment.route.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS2724: [0m'"@dtos/inboundShipment.dto"' has no exported member named 'InboundShipmentGetDocumentParamsDTO'. Did you mean 'InboundShipmentParamsDTO'?
+
+[7m12[0m   InboundShipmentGetDocumentParamsDTO,
+[7m  [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/dtos/inboundShipment.dto.ts[0m:[93m35[0m:[93m14[0m
+    [7m35[0m export class InboundShipmentParamsDTO {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'InboundShipmentParamsDTO' is declared here.
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 16:45:15] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/client/inboundShipment.route.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS2724: [0m'"@dtos/inboundShipment.dto"' has no exported member named 'InboundShipmentGetDocumentParamsDTO'. Did you mean 'InboundShipmentParamsDTO'?
+
+[7m12[0m   InboundShipmentGetDocumentParamsDTO,
+[7m  [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/dtos/inboundShipment.dto.ts[0m:[93m35[0m:[93m14[0m
+    [7m35[0m export class InboundShipmentParamsDTO {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'InboundShipmentParamsDTO' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/client/inboundShipment.route.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS2724: [0m'"@dtos/inboundShipment.dto"' has no exported member named 'InboundShipmentGetDocumentParamsDTO'. Did you mean 'InboundShipmentParamsDTO'?
+
+[7m12[0m   InboundShipmentGetDocumentParamsDTO,
+[7m  [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/dtos/inboundShipment.dto.ts[0m:[93m35[0m:[93m14[0m
+    [7m35[0m export class InboundShipmentParamsDTO {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'InboundShipmentParamsDTO' is declared here.
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 16:45:40] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/client/inboundShipment.route.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS2724: [0m'"@dtos/inboundShipment.dto"' has no exported member named 'InboundShipmentGetDocumentParamsDTO'. Did you mean 'InboundShipmentParamsDTO'?
+
+[7m12[0m   InboundShipmentGetDocumentParamsDTO,
+[7m  [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/dtos/inboundShipment.dto.ts[0m:[93m35[0m:[93m14[0m
+    [7m35[0m export class InboundShipmentParamsDTO {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'InboundShipmentParamsDTO' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/client/inboundShipment.route.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS2724: [0m'"@dtos/inboundShipment.dto"' has no exported member named 'InboundShipmentGetDocumentParamsDTO'. Did you mean 'InboundShipmentParamsDTO'?
+
+[7m12[0m   InboundShipmentGetDocumentParamsDTO,
+[7m  [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/dtos/inboundShipment.dto.ts[0m:[93m35[0m:[93m14[0m
+    [7m35[0m export class InboundShipmentParamsDTO {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'InboundShipmentParamsDTO' is declared here.
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 16:50:36] ERROR: Validation error: inboundShipment
+[2023-06-29 16:51:05] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/inboundShipment.dto.ts[0m:[93m40[0m:[93m11[0m - [91merror[0m[90m TS2304: [0mCannot find name 'shipment'.
+
+[7m40[0m   inbound-shipment: InboundShipmentDocumentType;
+[7m  [0m [91m          ~~~~~~~~[0m
+[96msrc/dtos/inboundShipment.dto.ts[0m:[93m43[0m:[93m17[0m - [91merror[0m[90m TS2693: [0m'string' only refers to a type, but is being used as a value here.
+
+[7m43[0m   documentName: string;
+[7m  [0m [91m                ~~~~~~[0m
+[96msrc/dtos/inboundShipment.dto.ts[0m:[93m40[0m:[93m3[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m40[0m   inbound-shipment: InboundShipmentDocumentType;
+[7m  [0m [91m  ~~~~~~~[0m
+[96msrc/dtos/inboundShipment.dto.ts[0m:[93m40[0m:[93m10[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m40[0m   inbound-shipment: InboundShipmentDocumentType;
+[7m  [0m [91m         ~[0m
+[96msrc/dtos/inboundShipment.dto.ts[0m:[93m40[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m40[0m   inbound-shipment: InboundShipmentDocumentType;
+[7m  [0m [91m                  ~[0m
+[96msrc/dtos/inboundShipment.dto.ts[0m:[93m42[0m:[93m14[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m42[0m   @IsString()
+[7m  [0m [91m             [0m
+[96msrc/dtos/inboundShipment.dto.ts[0m:[93m44[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m44[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/inboundShipment.dto.ts[0m:[93m40[0m:[93m11[0m - [91merror[0m[90m TS2304: [0mCannot find name 'shipment'.
+
+[7m40[0m   inbound-shipment: InboundShipmentDocumentType;
+[7m  [0m [91m          ~~~~~~~~[0m
+[96msrc/dtos/inboundShipment.dto.ts[0m:[93m43[0m:[93m17[0m - [91merror[0m[90m TS2693: [0m'string' only refers to a type, but is being used as a value here.
+
+[7m43[0m   documentName: string;
+[7m  [0m [91m                ~~~~~~[0m
+[96msrc/dtos/inboundShipment.dto.ts[0m:[93m40[0m:[93m3[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m40[0m   inbound-shipment: InboundShipmentDocumentType;
+[7m  [0m [91m  ~~~~~~~[0m
+[96msrc/dtos/inboundShipment.dto.ts[0m:[93m40[0m:[93m10[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m40[0m   inbound-shipment: InboundShipmentDocumentType;
+[7m  [0m [91m         ~[0m
+[96msrc/dtos/inboundShipment.dto.ts[0m:[93m40[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m40[0m   inbound-shipment: InboundShipmentDocumentType;
+[7m  [0m [91m                  ~[0m
+[96msrc/dtos/inboundShipment.dto.ts[0m:[93m42[0m:[93m14[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m42[0m   @IsString()
+[7m  [0m [91m             [0m
+[96msrc/dtos/inboundShipment.dto.ts[0m:[93m44[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m44[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 21:43:11] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/utils.ts[0m:[93m10[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '@models' or its corresponding type declarations.
+
+[7m10[0m import { Account } from '@models';
+[7m  [0m [91m                        ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/utils.ts[0m:[93m10[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '@models' or its corresponding type declarations.
+
+[7m10[0m import { Account } from '@models';
+[7m  [0m [91m                        ~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 21:54:25] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/database/index.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '@models' or its corresponding type declarations.
+
+[7m5[0m import * as models from '@models';
+[7m [0m [91m                        ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/database/index.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '@models' or its corresponding type declarations.
+
+[7m5[0m import * as models from '@models';
+[7m [0m [91m                        ~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 21:59:51] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/database/index.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '@models' or its corresponding type declarations.
+
+[7m5[0m import * as models from '@models';
+[7m [0m [91m                        ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/database/index.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '@models' or its corresponding type declarations.
+
+[7m5[0m import * as models from '@models';
+[7m [0m [91m                        ~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 21:59:59] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/database/index.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '@models' or its corresponding type declarations.
+
+[7m5[0m import * as models from '@models';
+[7m [0m [91m                        ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/database/index.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '@models' or its corresponding type declarations.
+
+[7m5[0m import * as models from '@models';
+[7m [0m [91m                        ~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 22:00:40] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/database/index.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '@models' or its corresponding type declarations.
+
+[7m5[0m import * as models from '@models';
+[7m [0m [91m                        ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/database/index.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '@models' or its corresponding type declarations.
+
+[7m5[0m import * as models from '@models';
+[7m [0m [91m                        ~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 22:01:44] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/database/index.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2306: [0mFile 'C:/Users/Intelory/Desktop/LD/src/database/models/index.ts' is not a module.
+
+[7m5[0m import * as models from '@models';
+[7m [0m [91m                        ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/database/index.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2306: [0mFile 'C:/Users/Intelory/Desktop/LD/src/database/models/index.ts' is not a module.
+
+[7m5[0m import * as models from '@models';
+[7m [0m [91m                        ~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 22:03:25] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/database/index.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2306: [0mFile 'C:/Users/Intelory/Desktop/LD/src/database/models/index.ts' is not a module.
+
+[7m5[0m import * as models from '@models';
+[7m [0m [91m                        ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/database/index.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2306: [0mFile 'C:/Users/Intelory/Desktop/LD/src/database/models/index.ts' is not a module.
+
+[7m5[0m import * as models from '@models';
+[7m [0m [91m                        ~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 22:04:00] ERROR: uncaughtException: currentModel.initModel is not a function
+TypeError: currentModel.initModel is not a function
+    at C:\Users\Intelory\Desktop\LD\src\database\index.ts:84:39
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\Intelory\Desktop\LD\src\database\index.ts:82:21)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 22:04:01] ERROR: Unable to connect to the database. error=Error: database "accountant" does not exist
+[2023-06-29 22:04:19] ERROR: uncaughtException: currentModel.initModel is not a function
+TypeError: currentModel.initModel is not a function
+    at C:\Users\Intelory\Desktop\LD\src\database\index.ts:84:39
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\Intelory\Desktop\LD\src\database\index.ts:82:21)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 22:05:43] ERROR: uncaughtException: currentModel.initModel is not a function
+TypeError: currentModel.initModel is not a function
+    at C:\Users\Intelory\Desktop\LD\src\database\index.ts:84:39
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\Intelory\Desktop\LD\src\database\index.ts:82:21)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 22:05:55] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m15[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'Accountant'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m              ~~~~~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m27[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'AccountantId'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m                          ~~~~~~~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m41[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'Client'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m                                        ~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m49[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'ClientId'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m                                                ~~~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m59[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'Permission'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m                                                          ~~~~~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m71[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'PermissionId'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m                                                                      ~~~~~~~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m85[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'UserClient'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m                                                                                    ~~~~~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m97[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'UserClientId'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m                                                                                                ~~~~~~~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m4[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module '@dtos/user.dto' or its corresponding type declarations.
+
+[7m4[0m import { UserRole } from '@dtos/user.dto';
+[7m [0m [91m                         ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m15[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'Accountant'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m              ~~~~~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m27[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'AccountantId'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m                          ~~~~~~~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m41[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'Client'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m                                        ~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m49[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'ClientId'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m                                                ~~~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m59[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'Permission'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m                                                          ~~~~~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m71[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'PermissionId'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m                                                                      ~~~~~~~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m85[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'UserClient'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m                                                                                    ~~~~~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m3[0m:[93m97[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'UserClientId'.
+
+[7m3[0m import type { Accountant, AccountantId, Client, ClientId, Permission, PermissionId, UserClient, UserClientId } from '@models';
+[7m [0m [91m                                                                                                ~~~~~~~~~~~~[0m
+[96msrc/database/models/user.model.ts[0m:[93m4[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module '@dtos/user.dto' or its corresponding type declarations.
+
+[7m4[0m import { UserRole } from '@dtos/user.dto';
+[7m [0m [91m                         ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 22:06:23] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'Accountant'.
+
+[7m3[0m import { Accountant, User, UserAttributes, UserClient } from '@models';
+[7m [0m [91m         ~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m3[0m:[93m44[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'UserClient'.
+
+[7m3[0m import { Accountant, User, UserAttributes, UserClient } from '@models';
+[7m [0m [91m                                           ~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m6[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module './baseService.service' or its corresponding type declarations.
+
+[7m6[0m import BaseService from './baseService.service';
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m7[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module '@dtos/user.dto' or its corresponding type declarations.
+
+[7m7[0m import { UserRole } from '@dtos/user.dto';
+[7m [0m [91m                         ~~~~~~~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m16[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'model' does not exist on type 'UserService'.
+
+[7m16[0m       return await this.model.findOne({
+[7m  [0m [91m                        ~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m49[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'model' does not exist on type 'UserService'.
+
+[7m49[0m       return await this.model.findAndCountAll(options);
+[7m  [0m [91m                        ~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m57[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'model' does not exist on type 'UserService'.
+
+[7m57[0m       return await this.model.findOne({
+[7m  [0m [91m                        ~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m86[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'model' does not exist on type 'UserService'.
+
+[7m86[0m       return await this.model.create(data);
+[7m  [0m [91m                        ~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m94[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'model' does not exist on type 'UserService'.
+
+[7m94[0m       return await this.model.update(data, { where: { id: userId, accountantId } });
+[7m  [0m [91m                        ~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m116[0m:[93m19[0m - [91merror[0m[90m TS2339: [0mProperty 'findAndDeleteAll' does not exist on type 'UserService'.
+
+[7m116[0m       return this.findAndDeleteAll(UserClient, { where: { userId } });
+[7m   [0m [91m                  ~~~~~~~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m124[0m:[93m18[0m - [91merror[0m[90m TS2339: [0mProperty 'services' does not exist on type 'UserService'.
+
+[7m124[0m       await this.services.userService.deleteAccountantUserClients(accountantId, userId);
+[7m   [0m [91m                 ~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m125[0m:[93m18[0m - [91merror[0m[90m TS2339: [0mProperty 'services' does not exist on type 'UserService'.
+
+[7m125[0m       await this.services.permissionService.deleteUserPermissions(userId);
+[7m   [0m [91m                 ~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m126[0m:[93m18[0m - [91merror[0m[90m TS2339: [0mProperty 'services' does not exist on type 'UserService'.
+
+[7m126[0m       await this.services.userService.assignAccountantUserClients(accountantId, userId, clients);
+[7m   [0m [91m                 ~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m127[0m:[93m18[0m - [91merror[0m[90m TS2339: [0mProperty 'services' does not exist on type 'UserService'.
+
+[7m127[0m       await this.services.permissionService.assignPermissions(userId, clients);
+[7m   [0m [91m                 ~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m135[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'model' does not exist on type 'UserService'.
+
+[7m135[0m       return await this.model.count({ where: { accountantId } });
+[7m   [0m [91m                        ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'Accountant'.
+
+[7m3[0m import { Accountant, User, UserAttributes, UserClient } from '@models';
+[7m [0m [91m         ~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m3[0m:[93m44[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'UserClient'.
+
+[7m3[0m import { Accountant, User, UserAttributes, UserClient } from '@models';
+[7m [0m [91m                                           ~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m6[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module './baseService.service' or its corresponding type declarations.
+
+[7m6[0m import BaseService from './baseService.service';
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m7[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module '@dtos/user.dto' or its corresponding type declarations.
+
+[7m7[0m import { UserRole } from '@dtos/user.dto';
+[7m [0m [91m                         ~~~~~~~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m16[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'model' does not exist on type 'UserService'.
+
+[7m16[0m       return await this.model.findOne({
+[7m  [0m [91m                        ~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m49[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'model' does not exist on type 'UserService'.
+
+[7m49[0m       return await this.model.findAndCountAll(options);
+[7m  [0m [91m                        ~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m57[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'model' does not exist on type 'UserService'.
+
+[7m57[0m       return await this.model.findOne({
+[7m  [0m [91m                        ~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m86[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'model' does not exist on type 'UserService'.
+
+[7m86[0m       return await this.model.create(data);
+[7m  [0m [91m                        ~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m94[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'model' does not exist on type 'UserService'.
+
+[7m94[0m       return await this.model.update(data, { where: { id: userId, accountantId } });
+[7m  [0m [91m                        ~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m116[0m:[93m19[0m - [91merror[0m[90m TS2339: [0mProperty 'findAndDeleteAll' does not exist on type 'UserService'.
+
+[7m116[0m       return this.findAndDeleteAll(UserClient, { where: { userId } });
+[7m   [0m [91m                  ~~~~~~~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m124[0m:[93m18[0m - [91merror[0m[90m TS2339: [0mProperty 'services' does not exist on type 'UserService'.
+
+[7m124[0m       await this.services.userService.deleteAccountantUserClients(accountantId, userId);
+[7m   [0m [91m                 ~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m125[0m:[93m18[0m - [91merror[0m[90m TS2339: [0mProperty 'services' does not exist on type 'UserService'.
+
+[7m125[0m       await this.services.permissionService.deleteUserPermissions(userId);
+[7m   [0m [91m                 ~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m126[0m:[93m18[0m - [91merror[0m[90m TS2339: [0mProperty 'services' does not exist on type 'UserService'.
+
+[7m126[0m       await this.services.userService.assignAccountantUserClients(accountantId, userId, clients);
+[7m   [0m [91m                 ~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m127[0m:[93m18[0m - [91merror[0m[90m TS2339: [0mProperty 'services' does not exist on type 'UserService'.
+
+[7m127[0m       await this.services.permissionService.assignPermissions(userId, clients);
+[7m   [0m [91m                 ~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m135[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'model' does not exist on type 'UserService'.
+
+[7m135[0m       return await this.model.count({ where: { accountantId } });
+[7m   [0m [91m                        ~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 22:08:15] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'Accountant'.
+
+[7m3[0m import { Accountant, User, UserAttributes, UserClient } from '@models';
+[7m [0m [91m         ~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m3[0m:[93m44[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'UserClient'.
+
+[7m3[0m import { Accountant, User, UserAttributes, UserClient } from '@models';
+[7m [0m [91m                                           ~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m7[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module '@dtos/user.dto' or its corresponding type declarations.
+
+[7m7[0m import { UserRole } from '@dtos/user.dto';
+[7m [0m [91m                         ~~~~~~~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m125[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'permissionService' does not exist on type 'Service'.
+
+[7m125[0m       await this.services.permissionService.deleteUserPermissions(userId);
+[7m   [0m [91m                          ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m127[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'permissionService' does not exist on type 'Service'.
+
+[7m127[0m       await this.services.permissionService.assignPermissions(userId, clients);
+[7m   [0m [91m                          ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'Accountant'.
+
+[7m3[0m import { Accountant, User, UserAttributes, UserClient } from '@models';
+[7m [0m [91m         ~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m3[0m:[93m44[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'UserClient'.
+
+[7m3[0m import { Accountant, User, UserAttributes, UserClient } from '@models';
+[7m [0m [91m                                           ~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m7[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module '@dtos/user.dto' or its corresponding type declarations.
+
+[7m7[0m import { UserRole } from '@dtos/user.dto';
+[7m [0m [91m                         ~~~~~~~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m125[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'permissionService' does not exist on type 'Service'.
+
+[7m125[0m       await this.services.permissionService.deleteUserPermissions(userId);
+[7m   [0m [91m                          ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m127[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'permissionService' does not exist on type 'Service'.
+
+[7m127[0m       await this.services.permissionService.assignPermissions(userId, clients);
+[7m   [0m [91m                          ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 22:08:27] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m35[0m:[93m61[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Accountant'.
+
+[7m35[0m   public getAccountantUsers = async (accountantId: string | Accountant, params: any): Promise<any> => {
+[7m  [0m [91m                                                            ~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m42[0m:[93m24[0m - [91merror[0m[90m TS2304: [0mCannot find name 'UserRole'.
+
+[7m42[0m               [Op.ne]: UserRole.ADMIN,
+[7m  [0m [91m                       ~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m55[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Accountant'.
+
+[7m55[0m   public getAccountantUser = async (accountantId: string | Accountant, userId: string): Promise<any> => {
+[7m  [0m [91m                                                           ~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m108[0m:[93m20[0m - [91merror[0m[90m TS2552: [0mCannot find name 'UserClient'. Did you mean 'userClients'?
+
+[7m108[0m       return await UserClient.bulkCreate(userClients);
+[7m   [0m [91m                   ~~~~~~~~~~[0m
+
+  [96msrc/services/user.service.ts[0m:[93m104[0m:[93m13[0m
+    [7m104[0m       const userClients = clientIds.map(clientId => {
+    [7m   [0m [96m            ~~~~~~~~~~~[0m
+    'userClients' is declared here.
+[96msrc/services/user.service.ts[0m:[93m116[0m:[93m36[0m - [91merror[0m[90m TS2304: [0mCannot find name 'UserClient'.
+
+[7m116[0m       return this.findAndDeleteAll(UserClient, { where: { userId } });
+[7m   [0m [91m                                   ~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m125[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'permissionService' does not exist on type 'Service'.
+
+[7m125[0m       await this.services.permissionService.deleteUserPermissions(userId);
+[7m   [0m [91m                          ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m127[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'permissionService' does not exist on type 'Service'.
+
+[7m127[0m       await this.services.permissionService.assignPermissions(userId, clients);
+[7m   [0m [91m                          ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.service.ts[0m:[93m35[0m:[93m61[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Accountant'.
+
+[7m35[0m   public getAccountantUsers = async (accountantId: string | Accountant, params: any): Promise<any> => {
+[7m  [0m [91m                                                            ~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m42[0m:[93m24[0m - [91merror[0m[90m TS2304: [0mCannot find name 'UserRole'.
+
+[7m42[0m               [Op.ne]: UserRole.ADMIN,
+[7m  [0m [91m                       ~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m55[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Accountant'.
+
+[7m55[0m   public getAccountantUser = async (accountantId: string | Accountant, userId: string): Promise<any> => {
+[7m  [0m [91m                                                           ~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m108[0m:[93m20[0m - [91merror[0m[90m TS2552: [0mCannot find name 'UserClient'. Did you mean 'userClients'?
+
+[7m108[0m       return await UserClient.bulkCreate(userClients);
+[7m   [0m [91m                   ~~~~~~~~~~[0m
+
+  [96msrc/services/user.service.ts[0m:[93m104[0m:[93m13[0m
+    [7m104[0m       const userClients = clientIds.map(clientId => {
+    [7m   [0m [96m            ~~~~~~~~~~~[0m
+    'userClients' is declared here.
+[96msrc/services/user.service.ts[0m:[93m116[0m:[93m36[0m - [91merror[0m[90m TS2304: [0mCannot find name 'UserClient'.
+
+[7m116[0m       return this.findAndDeleteAll(UserClient, { where: { userId } });
+[7m   [0m [91m                                   ~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m125[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'permissionService' does not exist on type 'Service'.
+
+[7m125[0m       await this.services.permissionService.deleteUserPermissions(userId);
+[7m   [0m [91m                          ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/user.service.ts[0m:[93m127[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'permissionService' does not exist on type 'Service'.
+
+[7m127[0m       await this.services.permissionService.assignPermissions(userId, clients);
+[7m   [0m [91m                          ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 22:08:33] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/index.route.ts[0m:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module '@controllers/index.controller' or its corresponding type declarations.
+
+[7m2[0m import IndexController from '@controllers/index.controller';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/index.route.ts[0m:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module '@controllers/index.controller' or its corresponding type declarations.
+
+[7m2[0m import IndexController from '@controllers/index.controller';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 22:09:52] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/index.route.ts[0m:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module '@controllers/index.controller' or its corresponding type declarations.
+
+[7m2[0m import IndexController from '@controllers/index.controller';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/index.route.ts[0m:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module '@controllers/index.controller' or its corresponding type declarations.
+
+[7m2[0m import IndexController from '@controllers/index.controller';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-29 22:10:15] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/index.route.ts[0m:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module '@controllers/index.controller' or its corresponding type declarations.
+
+[7m2[0m import IndexController from '@controllers/index.controller';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/index.route.ts[0m:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module '@controllers/index.controller' or its corresponding type declarations.
+
+[7m2[0m import IndexController from '@controllers/index.controller';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)

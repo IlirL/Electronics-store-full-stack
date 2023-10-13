@@ -1,0 +1,198 @@
+[2023-06-09 09:34:03] INFO: SEQUELIZE
+[2023-06-09 09:34:03] INFO: Database connection established successfully
+[2023-06-09 09:34:55] INFO: App listening on the port: 5000
+[2023-06-09 09:34:55] INFO: SEQUELIZE
+[2023-06-09 09:34:55] INFO: Database connection established successfully
+[2023-06-09 09:35:00] INFO: POST
+[2023-06-09 10:49:57] INFO: App listening on the port: 5000
+[2023-06-09 10:49:57] INFO: SEQUELIZE
+[2023-06-09 10:49:57] INFO: Database connection established successfully
+[2023-06-09 10:50:02] INFO: POST
+[2023-06-09 10:50:03] INFO: SEQUELIZE
+[2023-06-09 10:50:03] ERROR: Cannot read properties of undefined (reading 'originalname')
+[2023-06-09 10:50:03] INFO: POST
+[2023-06-09 10:50:07] INFO: POST
+[2023-06-09 10:50:42] INFO: App listening on the port: 5000
+[2023-06-09 10:50:43] INFO: SEQUELIZE
+[2023-06-09 10:50:43] INFO: Database connection established successfully
+[2023-06-09 10:50:48] INFO: POST
+[2023-06-09 10:51:07] INFO: SEQUELIZE
+[2023-06-09 10:51:07] ERROR: Cannot read properties of undefined (reading 'originalname')
+[2023-06-09 10:51:07] INFO: POST
+[2023-06-09 10:51:08] INFO: POST
+[2023-06-09 10:51:31] INFO: App listening on the port: 5000
+[2023-06-09 10:51:31] INFO: SEQUELIZE
+[2023-06-09 10:51:31] INFO: Database connection established successfully
+[2023-06-09 10:51:46] INFO: App listening on the port: 5000
+[2023-06-09 10:51:47] INFO: SEQUELIZE
+[2023-06-09 10:51:47] INFO: Database connection established successfully
+[2023-06-09 10:51:49] INFO: SEQUELIZE
+[2023-06-09 10:51:49] ERROR: Cannot read properties of undefined (reading 'originalname')
+[2023-06-09 10:51:49] INFO: POST
+[2023-06-09 10:51:51] INFO: POST
+[2023-06-09 10:52:09] INFO: SEQUELIZE
+[2023-06-09 10:52:10] INFO: POST
+[2023-06-09 10:52:12] INFO: POST
+[2023-06-09 10:52:25] INFO: SEQUELIZE
+[2023-06-09 10:52:25] INFO: GET
+[2023-06-09 10:52:27] INFO: POST
+[2023-06-09 10:53:22] INFO: App listening on the port: 5000
+[2023-06-09 10:53:22] INFO: SEQUELIZE
+[2023-06-09 10:53:22] INFO: Database connection established successfully
+[2023-06-09 10:53:23] INFO: SEQUELIZE
+[2023-06-09 10:53:23] INFO: GET
+[2023-06-09 10:53:27] INFO: POST
+[2023-06-09 10:55:41] INFO: App listening on the port: 5000
+[2023-06-09 10:55:42] INFO: SEQUELIZE
+[2023-06-09 10:55:42] INFO: Database connection established successfully
+[2023-06-09 10:55:44] INFO: SEQUELIZE
+[2023-06-09 10:55:45] INFO: GET
+[2023-06-09 10:55:46] INFO: POST
+[2023-06-09 10:56:18] INFO: App listening on the port: 5000
+[2023-06-09 10:56:18] INFO: SEQUELIZE
+[2023-06-09 10:56:18] INFO: Database connection established successfully
+[2023-06-09 10:56:20] INFO: SEQUELIZE
+[2023-06-09 10:56:21] INFO: GET
+[2023-06-09 10:56:23] INFO: POST
+[2023-06-09 10:56:51] INFO: App listening on the port: 5000
+[2023-06-09 10:56:51] INFO: SEQUELIZE
+[2023-06-09 10:56:51] INFO: Database connection established successfully
+[2023-06-09 10:56:56] INFO: POST
+[2023-06-09 10:58:54] INFO: App listening on the port: 5000
+[2023-06-09 10:58:54] INFO: SEQUELIZE
+[2023-06-09 10:58:54] INFO: Database connection established successfully
+[2023-06-09 10:58:58] INFO: SEQUELIZE
+[2023-06-09 10:58:58] INFO: GET
+[2023-06-09 10:58:59] INFO: POST
+[2023-06-09 11:04:21] INFO: App listening on the port: 5000
+[2023-06-09 11:04:22] INFO: SEQUELIZE
+[2023-06-09 11:04:22] INFO: Database connection established successfully
+[2023-06-09 11:04:27] INFO: POST
+[2023-06-09 11:04:53] INFO: SEQUELIZE
+[2023-06-09 11:04:53] INFO: Database connection established successfully
+[2023-06-09 11:10:10] INFO: App listening on the port: 5000
+[2023-06-09 11:10:10] INFO: SEQUELIZE
+[2023-06-09 11:10:10] INFO: Database connection established successfully
+[2023-06-09 11:10:15] INFO: POST
+[2023-06-09 11:10:15] INFO: SEQUELIZE
+[2023-06-09 11:10:16] INFO: GET
+[2023-06-09 11:10:20] INFO: POST
+[2023-06-09 11:12:16] INFO: App listening on the port: 5000
+[2023-06-09 11:12:16] INFO: SEQUELIZE
+[2023-06-09 11:12:16] INFO: Database connection established successfully
+[2023-06-09 11:12:21] INFO: POST
+[2023-06-09 11:21:09] INFO: SEQUELIZE
+[2023-06-09 11:21:09] INFO: SEQUELIZE
+[2023-06-09 11:21:09] INFO: SEQUELIZE
+[2023-06-09 11:21:09] INFO: GET
+[2023-06-09 11:21:12] INFO: POST
+[2023-06-09 11:21:29] INFO: App listening on the port: 5000
+[2023-06-09 11:21:29] INFO: SEQUELIZE
+[2023-06-09 11:21:29] INFO: Database connection established successfully
+[2023-06-09 11:21:30] INFO: SEQUELIZE
+[2023-06-09 11:21:30] INFO: SEQUELIZE
+[2023-06-09 11:21:30] INFO: SEQUELIZE
+[2023-06-09 11:21:31] INFO: GET
+[2023-06-09 11:21:34] INFO: POST
+[2023-06-09 11:28:53] INFO: App listening on the port: 5000
+[2023-06-09 11:28:53] INFO: SEQUELIZE
+[2023-06-09 11:28:53] INFO: Database connection established successfully
+[2023-06-09 11:28:58] INFO: POST
+[2023-06-09 11:34:23] INFO: App listening on the port: 5000
+[2023-06-09 11:34:23] INFO: SEQUELIZE
+[2023-06-09 11:34:23] INFO: Database connection established successfully
+[2023-06-09 11:34:28] INFO: POST
+[2023-06-09 11:37:26] INFO: App listening on the port: 5000
+[2023-06-09 11:37:26] INFO: SEQUELIZE
+[2023-06-09 11:37:26] INFO: Database connection established successfully
+[2023-06-09 11:37:31] INFO: POST
+[2023-06-09 11:44:02] INFO: App listening on the port: 5000
+[2023-06-09 11:44:02] INFO: SEQUELIZE
+[2023-06-09 11:44:03] INFO: Database connection established successfully
+[2023-06-09 11:44:07] INFO: POST
+[2023-06-09 12:01:08] INFO: SEQUELIZE
+[2023-06-09 12:01:08] INFO: Database connection established successfully
+[2023-06-09 14:41:13] INFO: App listening on the port: 5000
+[2023-06-09 14:41:13] INFO: SEQUELIZE
+[2023-06-09 14:41:13] INFO: Database connection established successfully
+[2023-06-09 14:41:28] INFO: App listening on the port: 5000
+[2023-06-09 14:41:28] INFO: SEQUELIZE
+[2023-06-09 14:41:28] INFO: Database connection established successfully
+[2023-06-09 14:41:33] INFO: POST
+[2023-06-09 14:43:20] INFO: App listening on the port: 5000
+[2023-06-09 14:43:20] INFO: SEQUELIZE
+[2023-06-09 14:43:21] INFO: Database connection established successfully
+[2023-06-09 14:43:25] INFO: POST
+[2023-06-09 14:45:52] INFO: App listening on the port: 5000
+[2023-06-09 14:45:52] INFO: SEQUELIZE
+[2023-06-09 14:45:52] INFO: Database connection established successfully
+[2023-06-09 14:45:57] INFO: POST
+[2023-06-09 14:46:00] INFO: SEQUELIZE
+[2023-06-09 14:46:00] INFO: POST
+[2023-06-09 14:46:02] INFO: POST
+[2023-06-09 14:46:14] INFO: SEQUELIZE
+[2023-06-09 14:46:14] INFO: GET
+[2023-06-09 14:46:17] INFO: POST
+[2023-06-09 14:46:44] INFO: App listening on the port: 5000
+[2023-06-09 14:46:44] INFO: SEQUELIZE
+[2023-06-09 14:46:44] INFO: Database connection established successfully
+[2023-06-09 14:47:10] INFO: App listening on the port: 5000
+[2023-06-09 14:47:10] INFO: SEQUELIZE
+[2023-06-09 14:47:10] INFO: Database connection established successfully
+[2023-06-09 14:47:14] INFO: SEQUELIZE
+[2023-06-09 14:47:14] INFO: GET
+[2023-06-09 14:47:15] INFO: POST
+[2023-06-09 14:47:51] INFO: App listening on the port: 5000
+[2023-06-09 14:47:52] INFO: SEQUELIZE
+[2023-06-09 14:47:52] INFO: Database connection established successfully
+[2023-06-09 14:47:57] INFO: POST
+[2023-06-09 14:48:04] INFO: SEQUELIZE
+[2023-06-09 14:48:04] INFO: GET
+[2023-06-09 14:48:07] INFO: POST
+[2023-06-09 14:48:45] INFO: App listening on the port: 5000
+[2023-06-09 14:48:45] INFO: SEQUELIZE
+[2023-06-09 14:48:45] INFO: Database connection established successfully
+[2023-06-09 14:48:50] INFO: POST
+[2023-06-09 14:48:52] INFO: SEQUELIZE
+[2023-06-09 14:48:53] INFO: POST
+[2023-06-09 14:48:55] INFO: POST
+[2023-06-09 14:49:12] INFO: SEQUELIZE
+[2023-06-09 14:49:12] INFO: GET
+[2023-06-09 14:49:15] INFO: SEQUELIZE
+[2023-06-09 14:49:15] INFO: GET
+[2023-06-09 14:49:15] INFO: POST
+[2023-06-09 14:54:15] INFO: App listening on the port: 5000
+[2023-06-09 14:54:15] INFO: SEQUELIZE
+[2023-06-09 14:54:15] INFO: Database connection established successfully
+[2023-06-09 14:54:21] INFO: POST
+[2023-06-09 14:54:21] INFO: SEQUELIZE
+[2023-06-09 14:54:22] INFO: POST
+[2023-06-09 14:54:26] INFO: POST
+[2023-06-09 14:55:27] INFO: App listening on the port: 5000
+[2023-06-09 14:55:27] INFO: SEQUELIZE
+[2023-06-09 14:55:27] INFO: Database connection established successfully
+[2023-06-09 14:55:32] INFO: POST
+[2023-06-09 14:55:37] INFO: SEQUELIZE
+[2023-06-09 14:55:37] INFO: GET
+[2023-06-09 14:55:37] INFO: POST
+[2023-06-09 14:57:41] INFO: App listening on the port: 5000
+[2023-06-09 14:57:41] INFO: SEQUELIZE
+[2023-06-09 14:57:41] INFO: Database connection established successfully
+[2023-06-09 14:57:46] INFO: POST
+[2023-06-09 15:00:59] INFO: SEQUELIZE
+[2023-06-09 15:01:00] INFO: POST
+[2023-06-09 15:01:02] INFO: POST
+[2023-06-09 15:01:09] INFO: SEQUELIZE
+[2023-06-09 15:01:09] INFO: GET
+[2023-06-09 15:01:12] INFO: POST
+[2023-06-09 15:03:16] INFO: App listening on the port: 5000
+[2023-06-09 15:03:16] INFO: SEQUELIZE
+[2023-06-09 15:03:16] INFO: Database connection established successfully
+[2023-06-09 15:03:30] INFO: App listening on the port: 5000
+[2023-06-09 15:03:30] INFO: SEQUELIZE
+[2023-06-09 15:03:30] INFO: Database connection established successfully
+[2023-06-09 15:03:35] INFO: POST
+[2023-06-09 15:05:28] INFO: App listening on the port: 5000
+[2023-06-09 15:05:28] INFO: SEQUELIZE
+[2023-06-09 15:05:28] INFO: Database connection established successfully
+[2023-06-09 15:05:33] INFO: POST

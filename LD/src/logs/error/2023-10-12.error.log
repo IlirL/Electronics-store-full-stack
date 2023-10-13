@@ -1,0 +1,263 @@
+[2023-10-12 11:35:17] ERROR: uncaughtException: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (C:\Users\Intelory\Desktop\project\LD\node_modules\express\lib\application.js:635:24)
+    at App.listen (C:\Users\Intelory\Desktop\project\LD\src\app.ts:37:14)
+    at Object.<anonymous> (C:\Users\Intelory\Desktop\project\LD\src\server.ts:16:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1621:12)
+[2023-10-12 11:42:51] ERROR: No authentication token provided
+[2023-10-12 11:42:51] ERROR: No authentication token provided
+[2023-10-12 11:42:56] ERROR: No authentication token provided
+[2023-10-12 11:42:57] ERROR: No authentication token provided
+[2023-10-12 11:43:05] ERROR: No authentication token provided
+[2023-10-12 11:43:05] ERROR: No authentication token provided
+[2023-10-12 11:43:35] ERROR: No authentication token provided
+[2023-10-12 11:43:35] ERROR: No authentication token provided
+[2023-10-12 11:43:55] ERROR: No authentication token provided
+[2023-10-12 11:44:03] ERROR: No authentication token provided
+[2023-10-12 11:44:03] ERROR: No authentication token provided
+[2023-10-12 11:48:21] ERROR: No authentication token provided
+[2023-10-12 11:48:24] ERROR: No authentication token provided
+[2023-10-12 11:48:24] ERROR: No authentication token provided
+[2023-10-12 11:57:12] ERROR: No authentication token provided
+[2023-10-12 11:57:12] ERROR: No authentication token provided
+[2023-10-12 11:58:22] ERROR: No authentication token provided
+[2023-10-12 12:45:02] ERROR: No authentication token provided
+[2023-10-12 12:46:06] ERROR: No authentication token provided
+[2023-10-12 15:17:14] ERROR: uncaughtException: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (C:\Users\Intelory\Desktop\project\LD\node_modules\express\lib\application.js:635:24)
+    at App.listen (C:\Users\Intelory\Desktop\project\LD\src\app.ts:37:14)
+    at Object.<anonymous> (C:\Users\Intelory\Desktop\project\LD\src\server.ts:16:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1621:12)
+[2023-10-12 15:31:18] ERROR: No authentication token provided
+[2023-10-12 15:31:18] ERROR: No authentication token provided
+[2023-10-12 15:31:21] ERROR: No authentication token provided
+[2023-10-12 15:31:21] ERROR: No authentication token provided
+[2023-10-12 15:51:31] ERROR: Validation error: quantity
+[2023-10-12 15:52:05] ERROR: Validation error: quantity
+[2023-10-12 15:53:42] ERROR: Validation error: quantity
+[2023-10-12 15:54:12] ERROR: Validation error: quantity
+[2023-10-12 15:54:56] ERROR: Validation error: quantity
+[2023-10-12 15:57:16] ERROR: No authentication token provided
+[2023-10-12 15:57:16] ERROR: No authentication token provided
+[2023-10-12 15:57:21] ERROR: No authentication token provided
+[2023-10-12 15:57:21] ERROR: No authentication token provided
+[2023-10-12 15:57:46] ERROR: No authentication token provided
+[2023-10-12 15:57:51] ERROR: No authentication token provided
+[2023-10-12 15:57:51] ERROR: No authentication token provided
+[2023-10-12 15:58:39] ERROR: No authentication token provided
+[2023-10-12 15:58:44] ERROR: No authentication token provided
+[2023-10-12 15:58:44] ERROR: No authentication token provided
+[2023-10-12 15:58:55] ERROR: No authentication token provided
+[2023-10-12 15:59:52] ERROR: No authentication token provided
+[2023-10-12 16:00:01] ERROR: No authentication token provided
+[2023-10-12 16:00:06] ERROR: No authentication token provided
+[2023-10-12 16:00:06] ERROR: No authentication token provided
+[2023-10-12 16:00:31] ERROR: No authentication token provided
+[2023-10-12 16:03:37] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m112[0m - [91merror[0m[90m TS2339: [0mProperty 'getDashboard' does not exist on type 'UserController'.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                                               ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m112[0m - [91merror[0m[90m TS2339: [0mProperty 'getDashboard' does not exist on type 'UserController'.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                                               ~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-12 16:03:55] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-12 16:04:35] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-12 16:05:06] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-12 16:08:05] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-12 16:08:10] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-12 16:08:15] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard ))
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-12 16:08:30] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard )
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/routes/user.route.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m27[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.route.ts[0m:[93m26[0m:[93m92[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m26[0m     this.router.get(`${path}/dashboard`, authMiddleware(), permissionMiddleware(['ADMIN'], this.userController.getDashboard )
+[7m  [0m [91m                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/routes/user.route.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m27[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-12 16:12:28] ERROR: Could not get user!
+[2023-10-12 16:12:40] ERROR: Could not get user!
+[2023-10-12 16:12:40] ERROR: Could not get user!

@@ -1,0 +1,973 @@
+[2023-10-08 12:34:09] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'User'.
+
+[7m2[0m import { User } from '@models';
+[7m [0m [91m         ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m29[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'User'.
+
+[7m2[0m import { User } from '@models';
+[7m [0m [91m         ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m29[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 12:34:37] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'User'.
+
+[7m2[0m import { User } from '@models';
+[7m [0m [91m         ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m29[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'User'.
+
+[7m2[0m import { User } from '@models';
+[7m [0m [91m         ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m29[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 12:34:53] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'User'.
+
+[7m2[0m import { User } from '@models';
+[7m [0m [91m         ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m29[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'User'.
+
+[7m2[0m import { User } from '@models';
+[7m [0m [91m         ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m29[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 12:35:08] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'User'.
+
+[7m2[0m import { User } from '@models';
+[7m [0m [91m         ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m29[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'User'.
+
+[7m2[0m import { User } from '@models';
+[7m [0m [91m         ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m29[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 12:35:30] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'User'.
+
+[7m2[0m import { User } from '@models';
+[7m [0m [91m         ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m29[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'User'.
+
+[7m2[0m import { User } from '@models';
+[7m [0m [91m         ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m29[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 12:35:36] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'User'.
+
+[7m2[0m import { User } from '@models';
+[7m [0m [91m         ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m29[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@models"' has no exported member 'User'.
+
+[7m2[0m import { User } from '@models';
+[7m [0m [91m         ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m29[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 12:36:18] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m19[0m:[93m64[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m19[0m   public async login(email: string, password: string): Promise<User> {
+[7m  [0m [91m                                                               ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m20[0m:[93m24[0m - [91merror[0m[90m TS2552: [0mCannot find name 'User'. Did you mean 'user'?
+
+[7m20[0m     const user = await User.findOne({ where: { email } });
+[7m  [0m [91m                       ~~~~[0m
+
+  [96msrc/services/auth.service.ts[0m:[93m20[0m:[93m11[0m
+    [7m20[0m     const user = await User.findOne({ where: { email } });
+    [7m  [0m [96m          ~~~~[0m
+    'user' is declared here.
+[96msrc/services/auth.service.ts[0m:[93m28[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m28[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m31[0m:[93m52[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m31[0m   public async loginWithToken(token: any): Promise<User> {
+[7m  [0m [91m                                                   ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m32[0m     let authUser: User = null;
+[7m  [0m [91m                  ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m35[0m:[93m53[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m35[0m       authUser = jwt.verify(token, auth?.secret) as User;
+[7m  [0m [91m                                                    ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m37[0m:[93m17[0m - [91merror[0m[90m TS2552: [0mCannot find name 'User'. Did you mean 'user'?
+
+[7m37[0m       throw new User();
+[7m  [0m [91m                ~~~~[0m
+
+  [96msrc/services/auth.service.ts[0m:[93m40[0m:[93m11[0m
+    [7m40[0m     const user = await User.findOne({ where: { id: authUser?.id } });
+    [7m  [0m [96m          ~~~~[0m
+    'user' is declared here.
+[96msrc/services/auth.service.ts[0m:[93m40[0m:[93m24[0m - [91merror[0m[90m TS2552: [0mCannot find name 'User'. Did you mean 'user'?
+
+[7m40[0m     const user = await User.findOne({ where: { id: authUser?.id } });
+[7m  [0m [91m                       ~~~~[0m
+
+  [96msrc/services/auth.service.ts[0m:[93m40[0m:[93m11[0m
+    [7m40[0m     const user = await User.findOne({ where: { id: authUser?.id } });
+    [7m  [0m [96m          ~~~~[0m
+    'user' is declared here.
+[96msrc/services/auth.service.ts[0m:[93m44[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m44[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m19[0m:[93m64[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m19[0m   public async login(email: string, password: string): Promise<User> {
+[7m  [0m [91m                                                               ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m20[0m:[93m24[0m - [91merror[0m[90m TS2552: [0mCannot find name 'User'. Did you mean 'user'?
+
+[7m20[0m     const user = await User.findOne({ where: { email } });
+[7m  [0m [91m                       ~~~~[0m
+
+  [96msrc/services/auth.service.ts[0m:[93m20[0m:[93m11[0m
+    [7m20[0m     const user = await User.findOne({ where: { email } });
+    [7m  [0m [96m          ~~~~[0m
+    'user' is declared here.
+[96msrc/services/auth.service.ts[0m:[93m28[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m28[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m31[0m:[93m52[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m31[0m   public async loginWithToken(token: any): Promise<User> {
+[7m  [0m [91m                                                   ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m32[0m     let authUser: User = null;
+[7m  [0m [91m                  ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m35[0m:[93m53[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m35[0m       authUser = jwt.verify(token, auth?.secret) as User;
+[7m  [0m [91m                                                    ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m37[0m:[93m17[0m - [91merror[0m[90m TS2552: [0mCannot find name 'User'. Did you mean 'user'?
+
+[7m37[0m       throw new User();
+[7m  [0m [91m                ~~~~[0m
+
+  [96msrc/services/auth.service.ts[0m:[93m40[0m:[93m11[0m
+    [7m40[0m     const user = await User.findOne({ where: { id: authUser?.id } });
+    [7m  [0m [96m          ~~~~[0m
+    'user' is declared here.
+[96msrc/services/auth.service.ts[0m:[93m40[0m:[93m24[0m - [91merror[0m[90m TS2552: [0mCannot find name 'User'. Did you mean 'user'?
+
+[7m40[0m     const user = await User.findOne({ where: { id: authUser?.id } });
+[7m  [0m [91m                       ~~~~[0m
+
+  [96msrc/services/auth.service.ts[0m:[93m40[0m:[93m11[0m
+    [7m40[0m     const user = await User.findOne({ where: { id: authUser?.id } });
+    [7m  [0m [96m          ~~~~[0m
+    'user' is declared here.
+[96msrc/services/auth.service.ts[0m:[93m44[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m44[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 12:36:30] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m19[0m:[93m64[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m19[0m   public async login(email: string, password: string): Promise<User> {
+[7m  [0m [91m                                                               ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m20[0m:[93m24[0m - [91merror[0m[90m TS2552: [0mCannot find name 'User'. Did you mean 'user'?
+
+[7m20[0m     const user = await User.findOne({ where: { email } });
+[7m  [0m [91m                       ~~~~[0m
+
+  [96msrc/services/auth.service.ts[0m:[93m20[0m:[93m11[0m
+    [7m20[0m     const user = await User.findOne({ where: { email } });
+    [7m  [0m [96m          ~~~~[0m
+    'user' is declared here.
+[96msrc/services/auth.service.ts[0m:[93m31[0m:[93m52[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m31[0m   public async loginWithToken(token: any): Promise<User> {
+[7m  [0m [91m                                                   ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m32[0m     let authUser: User = null;
+[7m  [0m [91m                  ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m35[0m:[93m53[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m35[0m       authUser = jwt.verify(token, auth?.secret) as User;
+[7m  [0m [91m                                                    ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m37[0m:[93m17[0m - [91merror[0m[90m TS2552: [0mCannot find name 'User'. Did you mean 'user'?
+
+[7m37[0m       throw new User();
+[7m  [0m [91m                ~~~~[0m
+
+  [96msrc/services/auth.service.ts[0m:[93m40[0m:[93m11[0m
+    [7m40[0m     const user = await User.findOne({ where: { id: authUser?.id } });
+    [7m  [0m [96m          ~~~~[0m
+    'user' is declared here.
+[96msrc/services/auth.service.ts[0m:[93m40[0m:[93m24[0m - [91merror[0m[90m TS2552: [0mCannot find name 'User'. Did you mean 'user'?
+
+[7m40[0m     const user = await User.findOne({ where: { id: authUser?.id } });
+[7m  [0m [91m                       ~~~~[0m
+
+  [96msrc/services/auth.service.ts[0m:[93m40[0m:[93m11[0m
+    [7m40[0m     const user = await User.findOne({ where: { id: authUser?.id } });
+    [7m  [0m [96m          ~~~~[0m
+    'user' is declared here.
+[96msrc/services/auth.service.ts[0m:[93m44[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m44[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m19[0m:[93m64[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m19[0m   public async login(email: string, password: string): Promise<User> {
+[7m  [0m [91m                                                               ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m20[0m:[93m24[0m - [91merror[0m[90m TS2552: [0mCannot find name 'User'. Did you mean 'user'?
+
+[7m20[0m     const user = await User.findOne({ where: { email } });
+[7m  [0m [91m                       ~~~~[0m
+
+  [96msrc/services/auth.service.ts[0m:[93m20[0m:[93m11[0m
+    [7m20[0m     const user = await User.findOne({ where: { email } });
+    [7m  [0m [96m          ~~~~[0m
+    'user' is declared here.
+[96msrc/services/auth.service.ts[0m:[93m31[0m:[93m52[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m31[0m   public async loginWithToken(token: any): Promise<User> {
+[7m  [0m [91m                                                   ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m32[0m     let authUser: User = null;
+[7m  [0m [91m                  ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m35[0m:[93m53[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m35[0m       authUser = jwt.verify(token, auth?.secret) as User;
+[7m  [0m [91m                                                    ~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m37[0m:[93m17[0m - [91merror[0m[90m TS2552: [0mCannot find name 'User'. Did you mean 'user'?
+
+[7m37[0m       throw new User();
+[7m  [0m [91m                ~~~~[0m
+
+  [96msrc/services/auth.service.ts[0m:[93m40[0m:[93m11[0m
+    [7m40[0m     const user = await User.findOne({ where: { id: authUser?.id } });
+    [7m  [0m [96m          ~~~~[0m
+    'user' is declared here.
+[96msrc/services/auth.service.ts[0m:[93m40[0m:[93m24[0m - [91merror[0m[90m TS2552: [0mCannot find name 'User'. Did you mean 'user'?
+
+[7m40[0m     const user = await User.findOne({ where: { id: authUser?.id } });
+[7m  [0m [91m                       ~~~~[0m
+
+  [96msrc/services/auth.service.ts[0m:[93m40[0m:[93m11[0m
+    [7m40[0m     const user = await User.findOne({ where: { id: authUser?.id } });
+    [7m  [0m [96m          ~~~~[0m
+    'user' is declared here.
+[96msrc/services/auth.service.ts[0m:[93m44[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m44[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 12:36:34] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m67[0m - [91merror[0m[90m TS2339: [0mProperty 'accountantId' does not exist on type 'User'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                                                  ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'getAccountantUser' does not exist on type 'UserService'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m67[0m - [91merror[0m[90m TS2339: [0mProperty 'accountantId' does not exist on type 'User'.
+
+[7m45[0m     return await this.services.userService.getAccountantUser(user.accountantId, user.id);
+[7m  [0m [91m                                                                  ~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 12:36:41] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m57[0m - [91merror[0m[90m TS2339: [0mProperty 'accountantId' does not exist on type 'User'.
+
+[7m45[0m     return await this.services.userService.getById(user.accountantId, user.id);
+[7m  [0m [91m                                                        ~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m71[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m45[0m     return await this.services.userService.getById(user.accountantId, user.id);
+[7m  [0m [91m                                                                      ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m57[0m - [91merror[0m[90m TS2339: [0mProperty 'accountantId' does not exist on type 'User'.
+
+[7m45[0m     return await this.services.userService.getById(user.accountantId, user.id);
+[7m  [0m [91m                                                        ~~~~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m45[0m:[93m71[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 2.
+
+[7m45[0m     return await this.services.userService.getById(user.accountantId, user.id);
+[7m  [0m [91m                                                                      ~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 13:04:01] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m48[0m:[93m35[0m - [91merror[0m[90m TS1144: [0m'{' or ';' expected.
+
+[7m48[0m   public async signUp (data:User) => {
+[7m  [0m [91m                                  ~~[0m
+[96msrc/services/auth.service.ts[0m:[93m48[0m:[93m38[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m48[0m   public async signUp (data:User) => {
+[7m  [0m [91m                                     ~[0m
+[96msrc/services/auth.service.ts[0m:[93m55[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m55[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m48[0m:[93m35[0m - [91merror[0m[90m TS1144: [0m'{' or ';' expected.
+
+[7m48[0m   public async signUp (data:User) => {
+[7m  [0m [91m                                  ~~[0m
+[96msrc/services/auth.service.ts[0m:[93m48[0m:[93m38[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m48[0m   public async signUp (data:User) => {
+[7m  [0m [91m                                     ~[0m
+[96msrc/services/auth.service.ts[0m:[93m55[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m55[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 13:07:21] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m49[0m:[93m44[0m - [91merror[0m[90m TS1144: [0m'{' or ';' expected.
+
+[7m49[0m   public async SignUp(data) : Promise<any> => {
+[7m  [0m [91m                                           ~~[0m
+[96msrc/services/auth.service.ts[0m:[93m49[0m:[93m47[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m49[0m   public async SignUp(data) : Promise<any> => {
+[7m  [0m [91m                                              ~[0m
+[96msrc/services/auth.service.ts[0m:[93m57[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m57[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m49[0m:[93m44[0m - [91merror[0m[90m TS1144: [0m'{' or ';' expected.
+
+[7m49[0m   public async SignUp(data) : Promise<any> => {
+[7m  [0m [91m                                           ~~[0m
+[96msrc/services/auth.service.ts[0m:[93m49[0m:[93m47[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m49[0m   public async SignUp(data) : Promise<any> => {
+[7m  [0m [91m                                              ~[0m
+[96msrc/services/auth.service.ts[0m:[93m57[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m57[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 13:07:38] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m49[0m:[93m44[0m - [91merror[0m[90m TS1144: [0m'{' or ';' expected.
+
+[7m49[0m   public async SignUp(data) : Promise<any> => {
+[7m  [0m [91m                                           ~~[0m
+[96msrc/services/auth.service.ts[0m:[93m49[0m:[93m47[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m49[0m   public async SignUp(data) : Promise<any> => {
+[7m  [0m [91m                                              ~[0m
+[96msrc/services/auth.service.ts[0m:[93m57[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m57[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m49[0m:[93m44[0m - [91merror[0m[90m TS1144: [0m'{' or ';' expected.
+
+[7m49[0m   public async SignUp(data) : Promise<any> => {
+[7m  [0m [91m                                           ~~[0m
+[96msrc/services/auth.service.ts[0m:[93m49[0m:[93m47[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m49[0m   public async SignUp(data) : Promise<any> => {
+[7m  [0m [91m                                              ~[0m
+[96msrc/services/auth.service.ts[0m:[93m57[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m57[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 13:08:07] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m21[0m:[93m16[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m21[0m   public async login(email: string, password: string): Promise<User> {
+[7m  [0m [91m               ~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m49[0m:[93m16[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m49[0m   public async login(email: string, password: string): Promise<User> {
+[7m  [0m [91m               ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m21[0m:[93m16[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m21[0m   public async login(email: string, password: string): Promise<User> {
+[7m  [0m [91m               ~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m49[0m:[93m16[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m49[0m   public async login(email: string, password: string): Promise<User> {
+[7m  [0m [91m               ~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 13:08:19] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m50[0m:[93m48[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'email'. Either declare one or provide an initializer.
+
+[7m50[0m     const user = await User.findOne({ where: { email } });
+[7m  [0m [91m                                               ~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m54[0m:[93m51[0m - [91merror[0m[90m TS2304: [0mCannot find name 'password'.
+
+[7m54[0m     const correctPassword = await comparePassword(password, user.password);
+[7m  [0m [91m                                                  ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m50[0m:[93m48[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'email'. Either declare one or provide an initializer.
+
+[7m50[0m     const user = await User.findOne({ where: { email } });
+[7m  [0m [91m                                               ~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m54[0m:[93m51[0m - [91merror[0m[90m TS2304: [0mCannot find name 'password'.
+
+[7m54[0m     const correctPassword = await comparePassword(password, user.password);
+[7m  [0m [91m                                                  ~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 13:08:32] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m49[0m:[93m35[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'void' nor 'any' must return a value.
+
+[7m49[0m   public async signUp(data:User): Promise<User> {
+[7m  [0m [91m                                  ~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m49[0m:[93m35[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'void' nor 'any' must return a value.
+
+[7m49[0m   public async signUp(data:User): Promise<User> {
+[7m  [0m [91m                                  ~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 13:28:16] ERROR: Cannot convert undefined or null to object
+[2023-10-08 13:28:26] ERROR: Cannot convert undefined or null to object
+[2023-10-08 13:28:32] ERROR: Cannot convert undefined or null to object
+[2023-10-08 13:53:30] ERROR: uncaughtException: Cannot read properties of undefined (reading 'port')
+TypeError: Cannot read properties of undefined (reading 'port')
+    at new App (C:\Users\Intelory\Desktop\project\LD\src\app.ts:23:28)
+    at Object.<anonymous> (C:\Users\Intelory\Desktop\project\LD\src\server.ts:13:13)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+[2023-10-08 14:05:25] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:06:15] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:06:49] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:07:12] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:08:05] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m52[0m:[93m48[0m - [91merror[0m[90m TS2322: [0mType 'string' is not assignable to type 'number'.
+
+[7m52[0m       const user = await User.create({...data, role:'USER'});
+[7m  [0m [91m                                               ~~~~[0m
+
+  [96msrc/database/models/user.model.ts[0m:[93m11[0m:[93m3[0m
+    [7m11[0m   role?: number;
+    [7m  [0m [96m  ~~~~[0m
+    The expected type comes from property 'role' which is declared here on type 'Optional<UserCreationAttributes, NullishPropertiesOf<UserCreationAttributes>>'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m52[0m:[93m48[0m - [91merror[0m[90m TS2322: [0mType 'string' is not assignable to type 'number'.
+
+[7m52[0m       const user = await User.create({...data, role:'USER'});
+[7m  [0m [91m                                               ~~~~[0m
+
+  [96msrc/database/models/user.model.ts[0m:[93m11[0m:[93m3[0m
+    [7m11[0m   role?: number;
+    [7m  [0m [96m  ~~~~[0m
+    The expected type comes from property 'role' which is declared here on type 'Optional<UserCreationAttributes, NullishPropertiesOf<UserCreationAttributes>>'
+
+    at createTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 14:08:12] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:11:16] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:12:03] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:13:54] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:14:30] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:16:35] ERROR: Could not create
+[2023-10-08 14:16:35] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:17:04] ERROR: Could not create
+[2023-10-08 14:17:04] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:18:32] ERROR: Could not create
+[2023-10-08 14:18:32] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:19:47] ERROR: uncaughtException: Cannot find module 'database/models/user.model'
+Require stack:
+- C:\Users\Intelory\Desktop\project\LD\src\services\user.service.ts
+- C:\Users\Intelory\Desktop\project\LD\src\services\index.ts
+- C:\Users\Intelory\Desktop\project\LD\src\utils\utils.ts
+- C:\Users\Intelory\Desktop\project\LD\src\middlewares\success.middleware.ts
+- C:\Users\Intelory\Desktop\project\LD\src\app.ts
+- C:\Users\Intelory\Desktop\project\LD\src\server.ts
+Error: Cannot find module 'database/models/user.model'
+Require stack:
+- C:\Users\Intelory\Desktop\project\LD\src\services\user.service.ts
+- C:\Users\Intelory\Desktop\project\LD\src\services\index.ts
+- C:\Users\Intelory\Desktop\project\LD\src\utils\utils.ts
+- C:\Users\Intelory\Desktop\project\LD\src\middlewares\success.middleware.ts
+- C:\Users\Intelory\Desktop\project\LD\src\app.ts
+- C:\Users\Intelory\Desktop\project\LD\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._resolveFilename (C:\Users\Intelory\Desktop\project\LD\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (C:\Users\Intelory\Desktop\project\LD\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\Intelory\Desktop\project\LD\src\services\user.service.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+[2023-10-08 14:20:00] ERROR: Could not create
+[2023-10-08 14:20:00] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:20:32] ERROR: Could not create
+[2023-10-08 14:20:32] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:21:11] ERROR: Could not create
+[2023-10-08 14:21:11] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:21:57] ERROR: Could not create
+[2023-10-08 14:21:57] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:23:10] ERROR: Could not create
+[2023-10-08 14:23:10] ERROR: uncaughtException: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Timeout._onTimeout (C:\Users\Intelory\Desktop\project\LD\node_modules\sequelize\src\model.js:95:34)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+[2023-10-08 14:24:00] ERROR: Could not create
+[2023-10-08 14:24:17] ERROR: Could not create
+[2023-10-08 17:56:34] ERROR: Could not create
+[2023-10-08 17:58:10] ERROR: Could not create
+[2023-10-08 17:59:28] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m51[0m:[93m42[0m - [91merror[0m[90m TS2322: [0mType 'string' is not assignable to type 'number'.
+
+[7m51[0m       return await User.create({...data, role:'USER'})
+[7m  [0m [91m                                         ~~~~[0m
+
+  [96msrc/database/models/user.model.ts[0m:[93m9[0m:[93m3[0m
+    [7m9[0m   role?: number;
+    [7m [0m [96m  ~~~~[0m
+    The expected type comes from property 'role' which is declared here on type 'Optional<UserCreationAttributes, NullishPropertiesOf<UserCreationAttributes>>'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m51[0m:[93m42[0m - [91merror[0m[90m TS2322: [0mType 'string' is not assignable to type 'number'.
+
+[7m51[0m       return await User.create({...data, role:'USER'})
+[7m  [0m [91m                                         ~~~~[0m
+
+  [96msrc/database/models/user.model.ts[0m:[93m9[0m:[93m3[0m
+    [7m9[0m   role?: number;
+    [7m [0m [96m  ~~~~[0m
+    The expected type comes from property 'role' which is declared here on type 'Optional<UserCreationAttributes, NullishPropertiesOf<UserCreationAttributes>>'
+
+    at createTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 17:59:36] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/database/models/user.model.ts[0m:[93m24[0m:[93m3[0m - [91merror[0m[90m TS2416: [0mProperty 'role' in type 'User' is not assignable to the same property in base type 'UserAttributes'.
+  Type 'string | number' is not assignable to type 'number'.
+    Type 'string' is not assignable to type 'number'.
+
+[7m24[0m   role?: number | string;
+[7m  [0m [91m  ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/database/models/user.model.ts[0m:[93m24[0m:[93m3[0m - [91merror[0m[90m TS2416: [0mProperty 'role' in type 'User' is not assignable to the same property in base type 'UserAttributes'.
+  Type 'string | number' is not assignable to type 'number'.
+    Type 'string' is not assignable to type 'number'.
+
+[7m24[0m   role?: number | string;
+[7m  [0m [91m  ~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\project\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-10-08 21:03:24] ERROR: Not found error
+[2023-10-08 21:03:41] ERROR: Incorrect password!
+[2023-10-08 21:12:55] ERROR: Not found error
+[2023-10-08 21:16:52] ERROR: Incorrect password!
+[2023-10-08 21:18:16] ERROR: Not found error
+[2023-10-08 21:18:23] ERROR: Not found error
+[2023-10-08 21:19:41] ERROR: Bad request error
+[2023-10-08 21:20:48] ERROR: Bad request error
+[2023-10-08 21:20:48] ERROR: Bad request error
+[2023-10-08 22:33:19] ERROR: Incorrect password!
+[2023-10-08 22:33:27] ERROR: Incorrect password!
+[2023-10-08 22:33:34] ERROR: Incorrect password!
+[2023-10-08 22:33:43] ERROR: Incorrect password!
+[2023-10-08 22:34:54] ERROR: Incorrect password!
+[2023-10-08 22:35:10] ERROR: Incorrect password!
+[2023-10-08 22:35:15] ERROR: Incorrect password!
+[2023-10-08 22:36:01] ERROR: Incorrect password!
+[2023-10-08 22:37:21] ERROR: Incorrect password!
+[2023-10-08 22:37:51] ERROR: Incorrect password!
+[2023-10-08 22:40:21] ERROR: Incorrect password!

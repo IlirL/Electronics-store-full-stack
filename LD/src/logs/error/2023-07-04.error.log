@@ -1,0 +1,52 @@
+[2023-07-04 22:13:42] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/book.service.ts[0m:[93m8[0m:[93m20[0m - [91merror[0m[90m TS2307: [0mCannot find module './database/models/user.js' or its corresponding type declarations.
+
+[7m8[0m import {User} from './database/models/user.js'
+[7m [0m [91m                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/book.service.ts[0m:[93m18[0m:[93m20[0m - [91merror[0m[90m TS2552: [0mCannot find name 'user'. Did you mean 'User'?
+
+[7m18[0m       return await user
+[7m  [0m [91m                   ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/book.service.ts[0m:[93m8[0m:[93m20[0m - [91merror[0m[90m TS2307: [0mCannot find module './database/models/user.js' or its corresponding type declarations.
+
+[7m8[0m import {User} from './database/models/user.js'
+[7m [0m [91m                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/book.service.ts[0m:[93m18[0m:[93m20[0m - [91merror[0m[90m TS2552: [0mCannot find name 'user'. Did you mean 'User'?
+
+[7m18[0m       return await user
+[7m  [0m [91m                   ~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-07-04 22:13:53] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/book.service.ts[0m:[93m8[0m:[93m20[0m - [91merror[0m[90m TS2307: [0mCannot find module './database/models/user.js' or its corresponding type declarations.
+
+[7m8[0m import {User} from './database/models/user.js'
+[7m [0m [91m                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/book.service.ts[0m:[93m8[0m:[93m20[0m - [91merror[0m[90m TS2307: [0mCannot find module './database/models/user.js' or its corresponding type declarations.
+
+[7m8[0m import {User} from './database/models/user.js'
+[7m [0m [91m                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\LD\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)

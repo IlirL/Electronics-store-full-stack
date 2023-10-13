@@ -1,0 +1,1344 @@
+[2023-06-19 09:47:06] ERROR: Wrong authentication token
+[2023-06-19 09:51:36] ERROR: Wrong authentication token
+[2023-06-19 09:53:24] ERROR: Could not find outbound shipment!
+[2023-06-19 11:47:52] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/outboundShipment.service.ts[0m:[93m53[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'association'.
+
+[7m53[0m                association: 'items',
+[7m  [0m [91m               ~~~~~~~~~~~[0m
+[96msrc/services/outboundShipment.service.ts[0m:[93m54[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m54[0m             include: [
+[7m  [0m [91m            ~~~~~~~[0m
+[96msrc/services/outboundShipment.service.ts[0m:[93m53[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m53[0m                association: 'items',
+[7m  [0m [91m                          ~[0m
+[96msrc/services/outboundShipment.service.ts[0m:[93m54[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m54[0m             include: [
+[7m  [0m [91m                   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/outboundShipment.service.ts[0m:[93m53[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'association'.
+
+[7m53[0m                association: 'items',
+[7m  [0m [91m               ~~~~~~~~~~~[0m
+[96msrc/services/outboundShipment.service.ts[0m:[93m54[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m54[0m             include: [
+[7m  [0m [91m            ~~~~~~~[0m
+[96msrc/services/outboundShipment.service.ts[0m:[93m53[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m53[0m                association: 'items',
+[7m  [0m [91m                          ~[0m
+[96msrc/services/outboundShipment.service.ts[0m:[93m54[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m54[0m             include: [
+[7m  [0m [91m                   ~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 11:48:10] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/outboundShipment.service.ts[0m:[93m53[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'association'.
+
+[7m53[0m                association: 'items',
+[7m  [0m [91m               ~~~~~~~~~~~[0m
+[96msrc/services/outboundShipment.service.ts[0m:[93m54[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m54[0m             include: [
+[7m  [0m [91m            ~~~~~~~[0m
+[96msrc/services/outboundShipment.service.ts[0m:[93m53[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m53[0m                association: 'items',
+[7m  [0m [91m                          ~[0m
+[96msrc/services/outboundShipment.service.ts[0m:[93m54[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m54[0m             include: [
+[7m  [0m [91m                   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/outboundShipment.service.ts[0m:[93m53[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'association'.
+
+[7m53[0m                association: 'items',
+[7m  [0m [91m               ~~~~~~~~~~~[0m
+[96msrc/services/outboundShipment.service.ts[0m:[93m54[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m54[0m             include: [
+[7m  [0m [91m            ~~~~~~~[0m
+[96msrc/services/outboundShipment.service.ts[0m:[93m53[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m53[0m                association: 'items',
+[7m  [0m [91m                          ~[0m
+[96msrc/services/outboundShipment.service.ts[0m:[93m54[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m54[0m             include: [
+[7m  [0m [91m                   ~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 12:09:31] ERROR: Wrong authentication token
+[2023-06-19 12:10:18] ERROR: Could not create invoice with all automatic changes!
+[2023-06-19 12:14:23] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 12:15:36] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 12:17:33] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 12:17:54] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 12:18:17] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 12:18:39] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 12:19:15] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 12:19:21] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 12:20:43] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 12:20:48] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 12:21:05] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 12:22:42] ERROR: Could not create invoice with all automatic changes!
+[2023-06-19 12:38:55] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/inventoryTransaction.service.ts[0m:[93m117[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m117[0m         });
+[7m   [0m [91m        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/inventoryTransaction.service.ts[0m:[93m117[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m117[0m         });
+[7m   [0m [91m        ~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 12:39:09] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/inventoryTransaction.service.ts[0m:[93m121[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m121[0m         });
+[7m   [0m [91m        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/inventoryTransaction.service.ts[0m:[93m121[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m121[0m         });
+[7m   [0m [91m        ~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 12:40:27] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/inventoryTransaction.service.ts[0m:[93m121[0m:[93m43[0m - [91merror[0m[90m TS2552: [0mCannot find name 'InventoryTransactionItem'. Did you mean 'InventoryTransaction'?
+
+[7m121[0m           const historyOfItemInInventoryTransaction: InventoryTransactionItem[] = inventoryTransactionItems.filter(inventoryTransactionItem => inventoryTransactionItem.itemId === itemId);
+[7m   [0m [91m                                          ~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/inventoryTransaction.service.ts[0m:[93m121[0m:[93m43[0m - [91merror[0m[90m TS2552: [0mCannot find name 'InventoryTransactionItem'. Did you mean 'InventoryTransaction'?
+
+[7m121[0m           const historyOfItemInInventoryTransaction: InventoryTransactionItem[] = inventoryTransactionItems.filter(inventoryTransactionItem => inventoryTransactionItem.itemId === itemId);
+[7m   [0m [91m                                          ~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 13:42:10] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/database/models/client.model.ts[0m:[93m308[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m308[0m   currentStocks!: CurrentStock[];
+[7m   [0m [91m                  ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m309[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m309[0m   getCurrentStocks!: Sequelize.HasManyGetAssociationsMixin<CurrentStock>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m310[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m310[0m   setCurrentStocks!: Sequelize.HasManySetAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m310[0m:[93m74[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m310[0m   setCurrentStocks!: Sequelize.HasManySetAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                         ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m311[0m:[93m58[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m311[0m   addCurrentStock!: Sequelize.HasManyAddAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                         ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m311[0m:[93m72[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m311[0m   addCurrentStock!: Sequelize.HasManyAddAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                       ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m312[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m312[0m   addCurrentStocks!: Sequelize.HasManyAddAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m312[0m:[93m74[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m312[0m   addCurrentStocks!: Sequelize.HasManyAddAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                         ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m313[0m:[93m64[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m313[0m   createCurrentStock!: Sequelize.HasManyCreateAssociationMixin<CurrentStock>;
+[7m   [0m [91m                                                               ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m314[0m:[93m64[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m314[0m   removeCurrentStock!: Sequelize.HasManyRemoveAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                               ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m314[0m:[93m78[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m314[0m   removeCurrentStock!: Sequelize.HasManyRemoveAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                             ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m315[0m:[93m66[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m315[0m   removeCurrentStocks!: Sequelize.HasManyRemoveAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                 ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m315[0m:[93m80[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m315[0m   removeCurrentStocks!: Sequelize.HasManyRemoveAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                               ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m316[0m:[93m58[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m316[0m   hasCurrentStock!: Sequelize.HasManyHasAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                         ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m316[0m:[93m72[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m316[0m   hasCurrentStock!: Sequelize.HasManyHasAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                       ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m317[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m317[0m   hasCurrentStocks!: Sequelize.HasManyHasAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m317[0m:[93m74[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m317[0m   hasCurrentStocks!: Sequelize.HasManyHasAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                         ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/database/models/client.model.ts[0m:[93m308[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m308[0m   currentStocks!: CurrentStock[];
+[7m   [0m [91m                  ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m309[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m309[0m   getCurrentStocks!: Sequelize.HasManyGetAssociationsMixin<CurrentStock>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m310[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m310[0m   setCurrentStocks!: Sequelize.HasManySetAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m310[0m:[93m74[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m310[0m   setCurrentStocks!: Sequelize.HasManySetAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                         ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m311[0m:[93m58[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m311[0m   addCurrentStock!: Sequelize.HasManyAddAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                         ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m311[0m:[93m72[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m311[0m   addCurrentStock!: Sequelize.HasManyAddAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                       ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m312[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m312[0m   addCurrentStocks!: Sequelize.HasManyAddAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m312[0m:[93m74[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m312[0m   addCurrentStocks!: Sequelize.HasManyAddAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                         ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m313[0m:[93m64[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m313[0m   createCurrentStock!: Sequelize.HasManyCreateAssociationMixin<CurrentStock>;
+[7m   [0m [91m                                                               ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m314[0m:[93m64[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m314[0m   removeCurrentStock!: Sequelize.HasManyRemoveAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                               ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m314[0m:[93m78[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m314[0m   removeCurrentStock!: Sequelize.HasManyRemoveAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                             ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m315[0m:[93m66[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m315[0m   removeCurrentStocks!: Sequelize.HasManyRemoveAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                 ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m315[0m:[93m80[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m315[0m   removeCurrentStocks!: Sequelize.HasManyRemoveAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                               ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m316[0m:[93m58[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m316[0m   hasCurrentStock!: Sequelize.HasManyHasAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                         ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m316[0m:[93m72[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m316[0m   hasCurrentStock!: Sequelize.HasManyHasAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                       ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m317[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m317[0m   hasCurrentStocks!: Sequelize.HasManyHasAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/client.model.ts[0m:[93m317[0m:[93m74[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m317[0m   hasCurrentStocks!: Sequelize.HasManyHasAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                         ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:29:39] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/database/models/storageLocation.model.ts[0m:[93m144[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m144[0m   currentStocks!: CurrentStock[];
+[7m   [0m [91m                  ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m145[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m145[0m   getCurrentStocks!: Sequelize.HasManyGetAssociationsMixin<CurrentStock>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m146[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m146[0m   setCurrentStocks!: Sequelize.HasManySetAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m146[0m:[93m74[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m146[0m   setCurrentStocks!: Sequelize.HasManySetAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                         ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m147[0m:[93m58[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m147[0m   addCurrentStock!: Sequelize.HasManyAddAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                         ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m147[0m:[93m72[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m147[0m   addCurrentStock!: Sequelize.HasManyAddAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                       ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m148[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m148[0m   addCurrentStocks!: Sequelize.HasManyAddAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m148[0m:[93m74[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m148[0m   addCurrentStocks!: Sequelize.HasManyAddAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                         ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m149[0m:[93m64[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m149[0m   createCurrentStock!: Sequelize.HasManyCreateAssociationMixin<CurrentStock>;
+[7m   [0m [91m                                                               ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m150[0m:[93m64[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m150[0m   removeCurrentStock!: Sequelize.HasManyRemoveAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                               ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m150[0m:[93m78[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m150[0m   removeCurrentStock!: Sequelize.HasManyRemoveAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                             ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m151[0m:[93m66[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m151[0m   removeCurrentStocks!: Sequelize.HasManyRemoveAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                 ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m151[0m:[93m80[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m151[0m   removeCurrentStocks!: Sequelize.HasManyRemoveAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                               ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m152[0m:[93m58[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m152[0m   hasCurrentStock!: Sequelize.HasManyHasAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                         ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m152[0m:[93m72[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m152[0m   hasCurrentStock!: Sequelize.HasManyHasAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                       ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m153[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m153[0m   hasCurrentStocks!: Sequelize.HasManyHasAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m153[0m:[93m74[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m153[0m   hasCurrentStocks!: Sequelize.HasManyHasAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                         ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/database/models/storageLocation.model.ts[0m:[93m144[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m144[0m   currentStocks!: CurrentStock[];
+[7m   [0m [91m                  ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m145[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m145[0m   getCurrentStocks!: Sequelize.HasManyGetAssociationsMixin<CurrentStock>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m146[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m146[0m   setCurrentStocks!: Sequelize.HasManySetAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m146[0m:[93m74[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m146[0m   setCurrentStocks!: Sequelize.HasManySetAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                         ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m147[0m:[93m58[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m147[0m   addCurrentStock!: Sequelize.HasManyAddAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                         ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m147[0m:[93m72[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m147[0m   addCurrentStock!: Sequelize.HasManyAddAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                       ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m148[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m148[0m   addCurrentStocks!: Sequelize.HasManyAddAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m148[0m:[93m74[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m148[0m   addCurrentStocks!: Sequelize.HasManyAddAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                         ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m149[0m:[93m64[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m149[0m   createCurrentStock!: Sequelize.HasManyCreateAssociationMixin<CurrentStock>;
+[7m   [0m [91m                                                               ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m150[0m:[93m64[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m150[0m   removeCurrentStock!: Sequelize.HasManyRemoveAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                               ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m150[0m:[93m78[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m150[0m   removeCurrentStock!: Sequelize.HasManyRemoveAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                             ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m151[0m:[93m66[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m151[0m   removeCurrentStocks!: Sequelize.HasManyRemoveAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                 ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m151[0m:[93m80[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m151[0m   removeCurrentStocks!: Sequelize.HasManyRemoveAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                               ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m152[0m:[93m58[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m152[0m   hasCurrentStock!: Sequelize.HasManyHasAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                         ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m152[0m:[93m72[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m152[0m   hasCurrentStock!: Sequelize.HasManyHasAssociationMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                       ~~~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m153[0m:[93m60[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStock'.
+
+[7m153[0m   hasCurrentStocks!: Sequelize.HasManyHasAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                           ~~~~~~~~~~~~[0m
+[96msrc/database/models/storageLocation.model.ts[0m:[93m153[0m:[93m74[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CurrentStockId'.
+
+[7m153[0m   hasCurrentStocks!: Sequelize.HasManyHasAssociationsMixin<CurrentStock, CurrentStockId>;
+[7m   [0m [91m                                                                         ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:33:21] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:33:35] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:33:45] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:33:58] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:34:13] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:34:20] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:34:34] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:36:51] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:37:01] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:37:25] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:37:41] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:37:55] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:38:59] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:39:43] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:40:57] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:41:01] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:41:23] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:41:49] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:42:06] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:42:25] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:43:52] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:44:52] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:45:25] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:47:11] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:47:19] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:48:58] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:49:25] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:49:44] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+[2023-06-19 14:50:15] ERROR: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/invoice.service.ts[0m:[93m126[0m:[93m50[0m - [91merror[0m[90m TS2339: [0mProperty 'effectOutboundShipmentStage2' does not exist on type 'InventoryTransactionService'.
+
+[7m126[0m             await this.services.inventoryTransactionService.effectOutboundShipmentStage2(outboundShipment);
+[7m   [0m [91m                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Intelory\Desktop\accounting-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)

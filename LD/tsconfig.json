@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": ["ES2021", "dom", "esnext.asynciterable"],
+    "typeRoots": ["./node_modules/@types"],
+    "baseUrl": "./src",
+    "paths": {
+      "@database": ["database"],
+      "@models": ["database/models"],
+      "@services": ["services"],
+      "@controllers/*": ["controllers/*"],
+      "@routes/*": ["routes/*"],
+      "@middlewares/*": ["middlewares/*"],
+      "@interfaces/*": ["interfaces/*"],
+      "@dtos/*": ["dtos/*"],
+      "@utils/*": ["utils/*"],
+      "@config": ["config"],
+      "@exceptions/*": ["exceptions/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "pretty": true,
+    "sourceMap": true,
+    "outDir": "./build",
+    "allowJs": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "./src/**/*",
+    ".env",
+    "src/services/baseService.service.ts",
+    "src/database/models/.ts"
+  ],
+  "exclude": ["node_modules"]
+}

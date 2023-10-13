@@ -1,0 +1,160 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\.528ede8bc2792c7ea983b06f0fe3236c75298da3-audit.json",
+    "files": [
+        {
+            "date": 1684311623922,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-05-17.error.log",
+            "hash": "7e44ea5c5234e43e11b3ef5781e31b7a74b3fa2fbe5fdee8e18ce50948ad5d74"
+        },
+        {
+            "date": 1684495697549,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-05-19.error.log",
+            "hash": "9b8c7b136ddfff6fc4dc5eeebf675be2f357792131516a3e34fa5e9da5f7d825"
+        },
+        {
+            "date": 1684738102597,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-05-22.error.log",
+            "hash": "cfa59121e9f69ecf37a532e32a7f66e37e80f5ca30110d3094b7ff1d4c80e7b7"
+        },
+        {
+            "date": 1684826335229,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-05-23.error.log",
+            "hash": "4564203fadab87ce43a4e59e765b0173f0ba3c798f4be89a8c5860c50a46d3db"
+        },
+        {
+            "date": 1685012301982,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-05-25.error.log",
+            "hash": "24f9dc11a68e71f4505a95d548140793a6421729d92d56eb71ba12db3eb474f7"
+        },
+        {
+            "date": 1685100046654,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-05-26.error.log",
+            "hash": "1eb085fb600bda4141198f6d0d48404335fbb361627a5ee698b68a3880c630a3"
+        },
+        {
+            "date": 1685434929280,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-05-30.error.log",
+            "hash": "643f8adf071320f79af4309ee376511b59fa46535cccabccd7158248f99d19cd"
+        },
+        {
+            "date": 1685515672400,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-05-31.error.log",
+            "hash": "6f83ddd24a8b0fd8bd4dec26eb89d07d82d99e5467d4f42f8d891426a60e4e7d"
+        },
+        {
+            "date": 1685609713120,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-01.error.log",
+            "hash": "1687f589367cfaf4872bab355803ed00fba4af61b71b3a7a0b1798e22ccb97b3"
+        },
+        {
+            "date": 1685693791422,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-02.error.log",
+            "hash": "cfb77495910b14f4b253eafefa1736063ab0eee63cbd43b0e77afc9855496cd6"
+        },
+        {
+            "date": 1685959203170,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-05.error.log",
+            "hash": "73366cc257b497d96c53b4adff54551490d1d19ac56212b5ad3b34493b9a030b"
+        },
+        {
+            "date": 1686053401055,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-06.error.log",
+            "hash": "c88ab00a18e70f1e7f57698a8b28f89d87828f82d30ea25224c34de39625e1a7"
+        },
+        {
+            "date": 1686125759634,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-07.error.log",
+            "hash": "1174855d750e528bfe7ac0d2a8ef830c04d55763d4bd076518c494630a171faa"
+        },
+        {
+            "date": 1686212377980,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-08.error.log",
+            "hash": "31e9d8d794506f73b20ce7bdedc7bcff29739fe0473eee7df06dc4c71d2db6ea"
+        },
+        {
+            "date": 1686296029409,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-09.error.log",
+            "hash": "3473b276cc255a78a0cc2cb46aede4e792d605093e1ca023a4a4349a7140ee5f"
+        },
+        {
+            "date": 1686483760542,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-11.error.log",
+            "hash": "d8cf38190892fe1d18c17f4d8605fc6b99cce7a76c2366f264ee3d53d9846ece"
+        },
+        {
+            "date": 1686560683705,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-12.error.log",
+            "hash": "40d8db1c2f25d58ccfe3167773777b335bfa157c996594d7907b6b7268787a1d"
+        },
+        {
+            "date": 1686643659599,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-13.error.log",
+            "hash": "9ff161c2dd0b62f1f7ecee68332349c65dea2daaff78cd8479aa6ec0c9b7a226"
+        },
+        {
+            "date": 1686740561620,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-14.error.log",
+            "hash": "ef0b4bda3c33c751c8838e2400efcb725572129cc12a3330e68cd9661143f18c"
+        },
+        {
+            "date": 1686817314741,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-15.error.log",
+            "hash": "6a9556f43fff65512ebd8220e773144e6ba42b300adebc2a77b2fc84a21340ed"
+        },
+        {
+            "date": 1687080702539,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-18.error.log",
+            "hash": "8f7833d9aaa41ef9fa5be97bb77aa12eb32ada4f78ecbd47af34d90f4d0f90df"
+        },
+        {
+            "date": 1687159404640,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-19.error.log",
+            "hash": "ccb7fe1764518e6d50f513c62ca5c3d5eb4fa9075971b2629beaa82f24f3c705"
+        },
+        {
+            "date": 1687247843763,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-20.error.log",
+            "hash": "8e0c90872b4de652e158da2f013a7c48831a76f6356216e081560a9568a791f4"
+        },
+        {
+            "date": 1687335498071,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-21.error.log",
+            "hash": "8b22c6bc22065dfa6294a815d349a640eeecdeb0b75220e89e95d80394f68a82"
+        },
+        {
+            "date": 1687427235385,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-22.error.log",
+            "hash": "7ff7c0b504c7077baee846a3364bc9dd1d20b35cf5b274e651175180c9c2388b"
+        },
+        {
+            "date": 1687505600177,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-23.error.log",
+            "hash": "e0f56258a8a9c6a1270c77f5094b418369bcdcb773eaaa793d9668cc5139f917"
+        },
+        {
+            "date": 1687645849143,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-25.error.log",
+            "hash": "db250a15d5fa23d5c4de756b9176701a33685e1a84e5336532a4f41c350d6004"
+        },
+        {
+            "date": 1687765917176,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-26.error.log",
+            "hash": "17ae886c40bd999622165bb85283a69ac5c69c032ee5b460f421fb6b2e28888a"
+        },
+        {
+            "date": 1687856740916,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-27.error.log",
+            "hash": "75958dbfff82a6fc9e214073944ac6f0efa4524f93bdeb7f69579976682975ed"
+        },
+        {
+            "date": 1688026163754,
+            "name": "C:\\Users\\Intelory\\Desktop\\accounting-api\\src\\logs\\error\\2023-06-29.error.log",
+            "hash": "6b76f3dff0564cbb96f40e0aba0304e94733996922f090dafd77fa45e26020f3"
+        }
+    ],
+    "hashType": "sha256"
+}

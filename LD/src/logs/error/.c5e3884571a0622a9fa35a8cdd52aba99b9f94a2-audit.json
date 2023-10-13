@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\Intelory\\Desktop\\LD\\src\\logs\\error\\.c5e3884571a0622a9fa35a8cdd52aba99b9f94a2-audit.json",
+    "files": [
+        {
+            "date": 1688067785562,
+            "name": "C:\\Users\\Intelory\\Desktop\\LD\\src\\logs\\error\\2023-06-29.error.log",
+            "hash": "7008d3e6777adcea28937139d75016e09fe484b63fedfab77ca288768dec4be3"
+        },
+        {
+            "date": 1688116010312,
+            "name": "C:\\Users\\Intelory\\Desktop\\LD\\src\\logs\\error\\2023-06-30.error.log",
+            "hash": "0102a0dbad388ebd317bfd96835e882f2c0a30f520a2accd47153b090ea4d4af"
+        },
+        {
+            "date": 1688401647558,
+            "name": "C:\\Users\\Intelory\\Desktop\\LD\\src\\logs\\error\\2023-07-03.error.log",
+            "hash": "32cb53a4b44842b83ee3e3cdcd662cf111e046067799812678e686b1f3825869"
+        },
+        {
+            "date": 1688500571636,
+            "name": "C:\\Users\\Intelory\\Desktop\\LD\\src\\logs\\error\\2023-07-04.error.log",
+            "hash": "029f7f3f9a47bf4d73b5a04eb2d08bc2b33b528ec4eea413746ea9332b6b84ff"
+        },
+        {
+            "date": 1696690203018,
+            "name": "C:\\Users\\Intelory\\Desktop\\LD\\src\\logs\\error\\2023-10-07.error.log",
+            "hash": "b42f0f181855afb9c3d26259671a91edf99541e6da09267cf9ad7f79a45d994d"
+        },
+        {
+            "date": 1696761246841,
+            "name": "C:\\Users\\Intelory\\Desktop\\LD\\src\\logs\\error\\2023-10-08.error.log",
+            "hash": "4352aa33da47f7d309d77a63a5b778df4df9cf965a530e5057824728ee80dca0"
+        }
+    ],
+    "hashType": "sha256"
+}
